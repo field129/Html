@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links & Buttons</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      a {
+        /* change colour and underline of link */
+        color: #333;
+        text-decoration: none;
+      }
+      /* Changes the color of link whilst hovering over  */
+      a:hover {
+        color: coral;
+      }
+      /* stays red after being clicked/visited */
+      a:visited {
+        color: crimson;
+      }
+
+      a:active {
+        color: red;
+      }
+
+      /* button styling */
+      .btn {
+        background: #4c6ca0;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        /* finger instead of arrow mouse  */
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        color: #fff;
+        background: #446190;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- putting both link and button in btn class.  -->
+    <br />
+    <a class="btn" href="http://">My link</a>
+    <br />
+    <br />
+    <button class="btn">My button</button>
+  </body>
+</html>

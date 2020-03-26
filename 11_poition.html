@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positioning</title>
+    <style>
+        .box {
+          width: 100px;
+          height: 100px;
+        }
+        .container {
+          position: relative;
+          widows: 500px;
+          height: 500px;
+          background: #333;
+        }
+
+        #box-1 {
+          position: relative;
+          top: 50px;
+          left: 50px;
+          /* bring to front higher the number closer to front*/
+          z-index: 1;
+          background-color: teal;
+        }
+        /* positioning within a container down and to the right have to absoloute */
+        #box-2 {
+          position: absolute;
+          top: 100px;
+          left: 100px;
+          background-color: red;
+        }
+
+        #box-3 {
+          position: absolute;
+          bottom: 100px;
+          right: 100px
+          background-color: yellow;
+        }
+
+        #box-4 {
+          background-color: lime;
+          /* fix item e.g. for advert you want still even when scroll */
+          position: fixed;
+        }
+
+        #box-5 {
+      /* sticky for header nav bar stays in set place */
+            position: sticky;
+            top: 0;
+            background-color: black;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="box-1" class="box"></div>
+    <div class="container">
+      <div id="box-2" class="box"></div>
+      <div id="box-3" class="box"></div>
+    </div>
+    <div id="box-4" class="box"></div>
+    <div id="box-5" class="box"></div>
+  </body>
+</html>

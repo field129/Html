@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- using external Fonts   copy link as below -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fonts</title>
+    <style>
+      /* even if you link to external font as above, you need to call it in your style
+        pick which element you want to apply font to, then font family and paste name as per site */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 1.6em;
+      }
+      #Welcome p span {
+        font-weight: bold;
+      }
+
+      #About p span {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Welcome">
+      <!-- make sure class names are descripitive to future proof -->
+      <h2 class="primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet
+        <span> consectetur adipisicing elit. Harum sequi consectetur</span> ea,
+        modi repellendus fugit exceptu ri voluptatibus incidunt cumque sit.
+      </p>
+    </div>
+    <div id="About">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <span>Laudantium assumenda deleniti </span>esse dolorem ex nam dolores
+        aut repellendus vero. Sequi.
+      </p>
+    </div>
+  </body>
+</html>
