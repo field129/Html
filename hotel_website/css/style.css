@@ -27,13 +27,6 @@ p {
   margin: 10px 0;
 }
 
-/* Navbar */
-#navbar {
-  background: #333333;
-  color: #ffffff;
-  overflow: auto;
-}
-
 /* Utility classes useful non specific classes to be used anywhere */
 .container {
   margin: auto;
@@ -68,6 +61,28 @@ p {
 .btn:hover {
   background: #f7c08a;
   color: #333333;
+}
+
+.background-dark {
+  background: #333333;
+  color: #fff;
+}
+
+.background-light {
+  background: #fff;
+  color: #333;
+}
+
+.background-primary {
+  background: #333;
+  color: #f7c08a;
+}
+
+/* Navbar */
+#navbar {
+  background: #333333;
+  color: #ffffff;
+  overflow: auto;
 }
 
 #navbar a {
