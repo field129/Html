@@ -82,6 +82,17 @@ p {
   clear: both;
 }
 
+/* padding  y axis is top and bottom */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
 /* Navbar */
 #navbar {
   background: #333333;
@@ -176,6 +187,25 @@ p {
 
 .box i {
   margin-bottom: 10px;
+}
+
+/* about info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+/* in order to add margin to img it has to be displayed as block */
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
 }
 
 /* footer */
