@@ -82,6 +82,10 @@ p {
   clear: both;
 }
 
+.l-heading {
+  font-size: 40px;
+}
+
 /* padding  y axis is top and bottom */
 .py-1 {
   padding: 10px 0;
@@ -200,6 +204,7 @@ p {
   display: block;
   margin: auto;
   width: 70%;
+  border-radius: 50%;
 }
 
 #about-info .info-left {
