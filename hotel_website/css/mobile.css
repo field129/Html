@@ -1,4 +1,4 @@
-#navbar.logo {
+.logo {
   float: none;
   text-align: center;
 }
@@ -21,4 +21,28 @@
 #home-info .info-content {
   float: none;
   width: 100%;
+}
+/* Boxes */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About info */
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
 }
