@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Em and Rem Units</title>
+
+    <!-- em is relative to the font size of its direct or nearest parent, 
+
+        rem is only relative to the html (root) font-size which is 16px by default! .
+
+        I like to think of it as a reset. If a style sheet is built in a modular fashion, 
+        then rem shouldn't be needed very often, but it can be handy at times. -->
+   
+   <style>
+      /* #box-1 { 
+        font-size: 20px;
+      }
+      #box-1 p {
+        font-size: 1.5em; /* = fontsize of 30px (1.5em x 20px parent) */
+    /*  padding: 1em; = padding of 30px (1.5em x 20px) */
+      /* } 
+      #box-1 ul{
+          font-size: 1.2em;
+      }                    */
+      #box-2 h3 {
+           font-size: 2rem; /* = font size of 32px 2rem * 16px default */
+      }
+      #box-2 p{
+          font-size: 1.6rem;
+           line-height: 1.7rem; /* em would have based this on the font size above  */
+      }
+
+      html {
+          font-size: 10px; /* changing the html font size to 10 makes it easier to workout 
+                            sizes as everything wil be x 10 */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div id="box-1">
+      <h3>Box One</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+        maxime, porro qui consequuntur aperiam nulla earum quidem pariatur
+        doloribus quod.
+      </p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>
+          3
+          <ul>
+            <li>1</li>
+            <li>2</li>     em doesn't work for nested each time it gets bigger 
+            <li>3</li>
+          </ul>
+        </li>
+        <li>4</li>
+      </ul>
+    </div>
+    <div id="box-2"> -->
+      <h3>Box Two</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+        maxime, porro qui consequuntur aperiam nulla earum quidem pariatur
+        doloribus quod.
+      </p>
+    </div>
+  </body>
+</html>

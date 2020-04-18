@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VH VW units</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0%;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      header {
+        background: #333 url("https://source.unsplash.com/daily") no-repeat
+          center center/cover;
+        color: #fff;
+        height: 100vh; /*body 100% does not cover whole screen
+                          100 vh does  */
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+      }
+      header h1 {
+        font-size: 3rem;
+      }
+
+      header p {
+        margin: 1rem 0;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.75rem 2rem;
+      }
+
+      section {
+        padding: 2rem;
+      }
+      /* when the viewport is 450px or less than this media querey comes into play e.g. landscape */
+      @media (max-height: 450px) {
+        header {
+          padding-top: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>welcome to our website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+        obcaecati eligendi libero animi eius aut!
+      </p>
+      <a href="#" class="btn"> Find Out More</a>
+    </header>
+
+    <section>
+      <h3>About Our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque
+        non in fugiat placeat iure exercitationem, voluptatum qui atque et
+        voluptas minima eaque numquam. Dolores, commodi veniam. Enim, dolores
+        veritatis voluptatem quo velit nobis libero cumque, aliquid quibusdam
+        modi earum mollitia! Accusantium voluptatibus odit eius. Soluta officiis
+        quas nemo repudiandae!
+      </p>
+    </section>
+  </body>
+</html>
